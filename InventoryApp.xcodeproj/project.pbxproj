@@ -15,6 +15,7 @@
 		99199167269DAF1700A49DB0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99199165269DAF1700A49DB0 /* LaunchScreen.storyboard */; };
 		9919916F269DB01500A49DB0 /* InventoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9919916E269DB01500A49DB0 /* InventoryTableViewController.swift */; };
 		99199171269DB8C100A49DB0 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99199170269DB8C100A49DB0 /* CustomTableViewCell.swift */; };
+		99199173269DC55100A49DB0 /* EquipmentCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99199172269DC55000A49DB0 /* EquipmentCardViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		99199168269DAF1700A49DB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9919916E269DB01500A49DB0 /* InventoryTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventoryTableViewController.swift; sourceTree = "<group>"; };
 		99199170269DB8C100A49DB0 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		99199172269DC55000A49DB0 /* EquipmentCardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EquipmentCardViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 				99199159269DAF1500A49DB0 /* SceneDelegate.swift */,
 				9919916E269DB01500A49DB0 /* InventoryTableViewController.swift */,
 				99199170269DB8C100A49DB0 /* CustomTableViewCell.swift */,
+				99199172269DC55000A49DB0 /* EquipmentCardViewController.swift */,
 				9919915D269DAF1500A49DB0 /* Main.storyboard */,
 				99199163269DAF1700A49DB0 /* Assets.xcassets */,
 				99199165269DAF1700A49DB0 /* LaunchScreen.storyboard */,
@@ -146,6 +149,7 @@
 				99199162269DAF1500A49DB0 /* InventoryApp.xcdatamodeld in Sources */,
 				99199171269DB8C100A49DB0 /* CustomTableViewCell.swift in Sources */,
 				99199158269DAF1500A49DB0 /* AppDelegate.swift in Sources */,
+				99199173269DC55100A49DB0 /* EquipmentCardViewController.swift in Sources */,
 				9919916F269DB01500A49DB0 /* InventoryTableViewController.swift in Sources */,
 				9919915A269DAF1500A49DB0 /* SceneDelegate.swift in Sources */,
 			);
