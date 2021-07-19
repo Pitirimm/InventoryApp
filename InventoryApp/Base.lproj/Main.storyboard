@@ -84,10 +84,14 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" id="I9K-9R-zCr">
-                        <barButtonItem key="rightBarButtonItem" style="done" systemItem="add" id="pI0-yk-SKM"/>
+                        <barButtonItem key="rightBarButtonItem" style="done" systemItem="add" id="pI0-yk-SKM">
+                            <connections>
+                                <action selector="addEquipment:" destination="9cE-7X-wRa" id="6KZ-qp-nHE"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                     <connections>
-                        <segue destination="zQh-Mq-77X" kind="show" id="n8J-JV-jXN"/>
+                        <segue destination="zQh-Mq-77X" kind="show" identifier="toEquipmentCard" id="n8J-JV-jXN"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eJF-qo-epE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -256,7 +260,23 @@
                             <constraint firstItem="cgt-F8-agL" firstAttribute="top" secondItem="BtK-FE-Sbw" secondAttribute="bottom" constant="34" id="xHR-z0-C8Q"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Equipment card" id="89l-KV-HjL"/>
+                    <navigationItem key="navigationItem" title="Equipment card" id="89l-KV-HjL">
+                        <barButtonItem key="rightBarButtonItem" systemItem="save" id="eMt-Ak-pWU">
+                            <connections>
+                                <action selector="pressSaveButton:" destination="zQh-Mq-77X" id="mcP-Z4-1qs"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="dateOfCreation" destination="pf0-vX-yna" id="jWg-DQ-RBY"/>
+                        <outlet property="departmentPerson" destination="tKz-TV-xKI" id="z8O-ha-Uc6"/>
+                        <outlet property="inventoryNumber" destination="BCP-RO-YW1" id="BZq-fb-nuw"/>
+                        <outlet property="modelEquipment" destination="HjW-L3-Dfl" id="9Um-c3-Mha"/>
+                        <outlet property="namePerson" destination="E71-Md-nAf" id="zuz-IC-LrK"/>
+                        <outlet property="serialNumberEquipment" destination="Rfv-Bd-FR2" id="sn0-mS-tyT"/>
+                        <outlet property="surnamePerson" destination="shz-LR-qvm" id="u68-p1-OoN"/>
+                        <outlet property="typeEquipment" destination="WFI-PF-61p" id="qkI-pA-xuV"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="S3d-b7-zEz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
