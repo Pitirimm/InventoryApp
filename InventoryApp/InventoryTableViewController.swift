@@ -14,7 +14,6 @@ class InventoryTableViewController: UITableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        tableView.rowHeight = 75
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -95,5 +94,11 @@ class InventoryTableViewController: UITableViewController {
         editAction.backgroundColor = .green
         
         return UISwipeActionsConfiguration(actions: [deleteAction, editAction])
+    }
+    
+    // MARK: - Table View Delegate
+    
+    override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        return 75
     }
 }
